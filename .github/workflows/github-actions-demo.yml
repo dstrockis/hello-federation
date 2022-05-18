@@ -27,3 +27,4 @@ jobs:
         run: |
           az account show
           az group list
+          az webapp up --location westus --name strockis-github-demo --html
